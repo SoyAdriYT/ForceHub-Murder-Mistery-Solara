@@ -1,0 +1,710 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SyztsxKWNhSJbrSbKfFNHHHnyjkkYmhurAZmNUKwagmVnTLcKjerZuVQ3JlYWRvcjogSGFja2J1bGwu'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('KvTTsaBByUJTDfQDjowrRplzFYpGMJhSQAKxXesQqalXojPyZCjrgPGLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0='))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('KFzIYEeFANlkFeWxRfXOBUMfaOThhfwgvixcCPgJwbGotZhRFeXGhFUQW50aS1UcmFtcGFzIEJ5cGFzcy4=')) 
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('GMNIXMCnYKDHWMwHUhvfUwoRAiFcKprRpPFFSptKxbiWGljELVaoiesUmVtb3ZpZG86IFNp'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('YfwFtWeauovpAklOGEbQyMhshBvhoJompeGJOegExQQLdpQVhwENnDNLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0='))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('XxJckXseJczfsATZWkzacOeMkiBUXYJKhSFtgcQDbqGsIEmiOtjnzDuU29sYXJhIFZlcnNpb24u'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('pySZrLzpSTBDZNUyLPDjWCEKqYZPrOmRbQiCKfzHOmStFqDDUQJkfAJVi0xLjEu'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jjGxzajydUyuTpSOnulOsesilTAQkLwHeLsDseztidNCxfajNoMFuXcICAgIA=='))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('YlnKjhoTvpnISlBCDGGoOgMWbrwxoNzJCzqWfBlBpeUzwLuZQixSGxRLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0='))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('WFLRdYBXyjPSIkBZJvzkWXtmeYTPtBBbReJEaMHcXiIqtZKpyTdZBYNVmVyc2lvbiBQcmVtaXVt'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ewJSeWxTNHhfqKoHgiJFehgbygcvEcGNXieSSdBQPtZNKQEuexGRKsRWW91VHViZTogSGFja2J1bGwu'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('bVzIrQCmWJcBJOndINSDDBrZKeBsRHKnBjvneELRVRYJGlVFwlmPhlIVGlrVG9rOiBIYWNrYnVsbC4='))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jNrKuCsGaLoGHFUdJyWeGkriXSGebUxVjzNJixOiIKoTUnWJaQHNvEWRGlzY29yZDogcGl0YnVsbDUzNDIu'))
+print(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lgBWSRAjCsIaxDDJuzwWuJENefyFVQEuRvfJQznMKdgWyDcqYjUabjoLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0='))
+
+game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BNFpnimtyPBrQbjXZvZevSOtlYJnecKNoREYbrGuYhWglJslkpQWOpEU3RhcnRlckd1aQ==')):SetCore(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('YrjlcdLMCjcCjFNXEithlEJuHzWOvDQybQdZmhMifqvbleBqtHzxeqLU2VuZE5vdGlmaWNhdGlvbg=='), {
+    Title = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('XSacEGehTnVHqpwWsvtTHUvVpWYSuKCNjTvmPdrmbXiWjvqNeAcKIiW8J+QleKAjfCfprpGb3JjZUh1YvCfkJXigI3wn6a6'),
+    Text = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('iXOHKxyXLjHRiSLQeabLHidkxZZcokhBOMzxepQOYuUAIAODiJuwOwmQ2FyZ2FuZG8gc2NyaXB0Lg=='),
+    Icon = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('oXfQkHdJLpnWlXdVEfYcaFDNBUaEOlyzzcTUBDYsGGeRaZJivFiPhrOcmJ4YXNzZXRpZDovLzE3MzkwMDc4OTgw'),
+    Duration = 5 -- Duración en segundos (opcional)
+})
+wait(2)
+
+game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('xjOhPXENAPYCFJEyyPtPraulAnZbZXtZwyZsJJrxcVFioAVWnLODrmPU3RhcnRlckd1aQ==')):SetCore(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yditvXyfQdIFrozZZZXXRYgXDKhvyCaKacqLZsSzQpGWgGtUXwbuWLUU2VuZE5vdGlmaWNhdGlvbg=='), {
+    Title = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lsJLtsoToIxkleajPVydKGlyWjeJvigWzbGvOBEDBgzEtLOXZXXYBov8J+QleKAjfCfprpGb3JjZUh1YvCfkJXigI3wn6a6'),
+    Text = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('rmJvmceQPBEcITtcIGBiDikBCaNIBbQNgvHcaAGBBRsCeLfdSaPgmrJQW50aS1UcmFtcGFzLUJ5cGFzcy1SZW1vdmlkby4='),
+    Icon = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('JUJiZYlOgYzPVXkIsyznnnavIMaMBjkiElBqqWaBLFistABRvQiBvnrcmJ4YXNzZXRpZDovLzE3MzkwMDc4OTgw'),
+    Duration = 5 -- Duración en segundos (opcional)
+})
+
+local Library = loadstring(game:HttpGet(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OQxbvUaSSISOBAbAlrHJsHqJPhCdhtnMNqmVOmsRittTyuCzQwsewGcaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3ZmZjFiUTlG')))()
+local Window = Library.CreateLib(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('qUKRyGDJobWFgcojfKBzhDgpuPJwhxZYycFwSZPNIrpesWmGPxSDnJg8J+QleKAjfCfprpGb3JjZUh1YiBNdXJkZXIgTWlzdGVyeSAyIFByZW1pdW3wn5CV4oCN8J+muiA='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('aTVcmhZRufakuRODLvQVyCtmIgmwebUEzuYtxOHfgvbmSkQcgwCnThJQmxvb2RUaGVtZQ=='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('detRclrnPZbHbTHmslNZaBLwCkGeHNvuypPYUscZmRvCQmhxacfHfpVSW5pY2lv'))
+local Section1 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jiYaWHfahglzokhwMeECTxcAhmroXwSTWoFzIHqdtMrUAiMXNuwXSviQmllbnZlbmlkby4='))
+local Section1 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SBRuRNndulEFTjnNvhTflXOsPQmumdWkvQxKPArcLcRdyPscRUYbvmcVmVyc2nDs24gUHJlbWl1bS4='))
+local Section1 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('rgeFeGzYImSAYgDuHoAlWOUOyIiNdIoHcjOfTThYbhwAJRXfdLihMNnWW91VHViZTogSGFja2J1bGwu'))
+local Section1 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ujcLsEmXMqqlGTwDoMMRJhTqwHmaGYwGPGmEbXtbMquUMlfHehNKhNEVGlrVG9rOiBIYWNrYnVsbC4='))
+local Section1 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NelEstkLivDMddJLkGgdJXPtmpoNUpgSfibKRarIoIoDhfSKZbLbCAQRGlzY29yZDogcGl0YnVsbDUzNDIu'))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('DZjbVuIasliAptXuFFytEwYQgxKIDoSlWdnSmLCQEfIsZTdRusAEmqwRVNQ'))
+local Section2 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('CNFbrBrkRKUArptbadnXdKZiNWDWdbDmnLkUXUtzFDnRbagEUNjyFOvSGVycmFtaWVudGFzIGRlIHZpc3VhbGl6YWNpw7NuLg=='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('CGcwFbVOLARAwBQaFUGExZhvpmCXvWZjZEyCDuUZNKRaWEpmZGtjAGYSW5vY2VudGU='))
+local Section3 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('gZkDjRvWPVflqSsDCMQxMPtAXABCGlNkTZMadPPoWQxIaRcxyQPPGwBSGVycmFtaWVudGFzIHBhcmEgbG9zIGlub2NlbnRlcy4='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('VdvOCkwJPWMdLuDyIsqkbDouNlAylouOWZBJrqBkFYPZfenlzatlvekUG9saWNpYQ=='))
+local Section4 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('xAnUuMPXcLidkZpIuCXDfcUNkdiAeKbXAnuJnpHcFtZjQlhVvgvAebMSGVycmFtaWVudGFzIHBhcmEgZWwgcG9saWNpYS4='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ivkIyKbcJogxOdvCbTcRPRDTwXZlBLAlSMnsVgCmmKtXRJkUXMywVSbQXNlc2lubw=='))
+local Section5 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('YkvmbmvycbImockdowEyiDmIqzTzolwBhDSbRFVFNIZCjXWpUNzZPDaSGVycmFtaWVudGFzIHBhcmEgZWwgYXNlc2luby4='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('MtklcVbdwTYXFnbiQuwoagTunciiWiLfgaRNDuXyDHwoHUMAKaHoDfgVGVsZXRyYW5zcG9ydGU='))
+local Section6 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NnXOSTzOQYoPhUwCNGGmIEEKZNzFcyGutXCDgLIjwGoZOYXzLGmyLFqSGVycmFtaWVudGFzIHBhcmEgZWwgdGVsZXRyYW5zcG9ydGUu'))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('HBLonhhExqVyoMEvDSXyiEbImVJasfQPGupSzJrdUyZUMajKevkQWHxUmFtZG9tIEZF'))
+local Section7 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('CEMFRCYNzuiPcESTtrHGhFpVEoXWvbZUKJykMRgsgryoPMmBezMaviVSGVycmFtaWVudGFzIHBhcmEgdHJvbGVhci4='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('zVirDaijMwYScznaZkXBmWNPJMBSTRUBJdnYUyYaqoYrZMLxdwnZgwRRW1vdGVz'))
+local Section8 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OkSJqtsHgwFrcqKrTXPnIBQVWvjfzMZeOphqzjopkTuFgHzVEbTZgItSGVycmFtaWVudGFzIHBhcmEgbG9zIGVtb3Rlcy4='))
+
+local Tab = Window:NewTab(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('AGWNvbLAttxaBFMaVOeVByhsRsvxLXWpVrPIyHOqGfBSADVCcFgfyLFRXh0cmFz'))
+local Section9 = Tab:NewSection(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('aoBoHFfhwFSplYSufYKsZkYObTSBYrvKiJczuaiDjgfhGODeMtJGGiZSGVycmFtaWVudGFzIGV4dHJhcy4='))
+
+
+Section2:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('HuQQmwSsYFlIGrFfMDgKIGVcxJlErBIPkenOvDcAuwFKDhpqwDodsBcRVNQIFRvZG9zLg=='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jVQthhmWaYpXkYbVeprsDQRTKgUOiEhMcAsHQvmGLyzMlrqrWEeyxETRXN0YSBvcGNpw7NuIGhhY2UgcXVlIHB1ZWRhIHZlciBhIGxvcyBqdWdhZG9yZXMgYSB0cmF2w6lzIGRlIG9iamV0b3Mu'), function()
+    loadstring(game:HttpGet(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('KXSnvfDOiDZWCRBAKIaadvPHoSOkwtaLXMQGvYhNKbwRqoPWhqeLCIKaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NveUFkcmlZVC9URC9tYWluL1Rk'), true))()
+end)
+
+Section2:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('bHIOuIfsobOUIprMJODHIzeZXfUoFHguOgtzAEJOuuMxONiPZBJCwhRRVNQIFBvbGljw61hLg=='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NLjgwybDHAghVjboIUDCeIvefXnfeQogzddykDlFkaEdGnhjYgYEIsdRXN0YSBvcGNpw7NuIGhhY2UgcXVlIHB1ZWRhIHZlciBhIGVsIHNoZXJpZmYgYSB0cmF2w6lzIGRlIG9iamV0b3Mu'), function()
+    loadstring(game:HttpGet(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ZhxUXtokdQRPntSKtSGccjgeoSwsFllntZmcrsbnjRGWhTNElMzrWIVaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NveUFkcmlZVC9TaC9tYWluL1NI'), true))()
+end)
+
+Section2:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('whFcfnQQNnEpYbltlxeGcNaNEXeUegyBJRRDdScUOxETvfnAwOMKSFrRVNQIEFzZXNpbm8u'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ekaIwBHZWkdLAScxSMdWqAAYJrVGmLDVFTLiEgMIFypWlkhEmNYCEOCRXN0YSBvcGNpw7NuIGhhY2UgcXVlIHB1ZWRhIHZlciBhIGVsIGFzZXNpbm8gYSB0cmF2w6lzIGRlIG9iamV0b3Mu'), function()
+    loadstring(game:HttpGet(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('qbQBGjnOCUGwwmoesqGeMoWxoqHjdzEwiwGHqRNsaIoBDaNaeeJlCMLaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NveUFkcmlZVC9NVS9tYWluL01V'), true))()
+end)
+
+Section3:NewSlider(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('iDxCJiqclixqkAhPZkrfGRbPFFQnsjMuZMRsejcksphKAPYdkyrXndRVmVsb2NpZGFkLg=='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('cGfHQwnJiPKpgdeuUDvjfDAeBjCYXMdjSJQdVMIjgqyCYBiaQlisVhvRXN0YSBvcGNpw7NuIHNpcnZlIHBhcmEgYXVtZW50YXIgbGEgdmVsb2NpZGFkIGRlbCBqdWdhZG9yLg=='), 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section3:NewSlider(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('YRyOZDJfGDdseGLjPfvFEnfnhqSOOyGkuZBLwYofMlgVjhLiIumjZOFU2FsdG8u'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('pKVinPWAwpiKsNdLpkbsBjYYqQamwCgRqFxoUoQvuvjWTpLdnGiwZCWRXN0YSBvcGNpw7NuIHNpcnZlIHBhcmEgYXVtZW50YXIgZWwgc2FsdG8gZGVsIGp1Z2Fkb3Iu'), 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section3:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('JOVUikQjZfXQwrqNtQnlbgencMbaMAjZoYGzpGjpVWfWdwIuCtNDqkASW5maW5pdGUgSnVtcC4='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('GlKsbseQqaWukvIagksznpXCPwuGXMWhhvqtqMLXXdhatMjbEmeRhWjRXN0YSBvcGNpw7NuIHRlIGRhIHNhbHRvIGluZmluaXRvLg=='), function()
+        local thing = Instance.new(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('qSOEbZaKVWRpagEbqSksFcaLaAtoNlgyoQURiwAGtcpxHXBEbltXcAOUGFydA=='))
+        thing.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('QGEymfroZamzUuPClOdyvwUjWMRTeCMZyBfyzjfNeNphThvBbYwgPfmVGhpcyBpcyBhIHBhcnQgb2YgdGhlIGdhbWU=')
+        thing.Anchored = true
+        thing.Parent = game.Workspace
+        thing.Size = Vector3.new(5, 0.1, 5)
+        thing.Transparency = 1
+    game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('CiTeCLZgctOUGBUCilySDjbeJLgbrEPPwYvLJdYGEXSSwYfsUGlLtBkUnVuU2VydmljZQ==')).Stepped:connect(
+            function()
+            local pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        thing.CFrame = CFrame.new(pos.X, pos.Y-3.3,pos.Z)--beetween -3.1 and idk but prob -3.6
+        end)
+end)
+
+Section3:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('JKJcSdShCVJEIilHXkNYKWHLLilqNEbyHELqesvZHFSvqGCIRFntLNDR29vZE1vZGUu'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jydtPBgQYirADsMCjsIhGUphIZuRoDMPgUwCdwoMpRagakDuTAYwRvPRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2VhIGlubW9ydGFsLg=='), function()
+local accessories = {}
+function GodMode()
+    if game.Players.LocalPlayer.Character then
+        if game.Players.LocalPlayer.Character:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NMiDJSSLAZYqFmhfXNKEIGteGqHOiiRxkIRXhHHlaUnzoqEMXaqbYpuSHVtYW5vaWQ=')) then
+            for _, accessory in pairs(game.Players.LocalPlayer.Character.Humanoid:GetAccessories()) do
+                table.insert(accessories, accessory:Clone())
+            end
+            game.Players.LocalPlayer.Character.Humanoid.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('vplVHEbBFmQOQIwDxuNhLATvSUGSrZPAzCFUDZMfCDkSrLQlgwnydTaZGVrdQ==')
+        end
+        local v = game.Players.LocalPlayer.Character[HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('idUHTwtEWNJmerqjKWHROGmbLYxFxFAOTuzFAEPRzSyGiIVusxfIQWeZGVrdQ==')]:Clone()
+        v.Parent = game.Players.LocalPlayer.Character
+        v.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jKQrwLGXpOligPegLemFJoXEhvRiyjObPGOTfWvgGdkgqhALhaOPjVHSHVtYW5vaWQ=')
+        wait(0.1)
+        game.Players.LocalPlayer.Character[HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('xEdpcHmggbsxakFxtqcOTwvejmItGWQetXAkwiAOCkYDtcmfDmwfNzHZGVrdQ==')]:Destroy()
+        workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+        for _, accessory in pairs(accessories) do
+            game.Players.LocalPlayer.Character.Humanoid:AddAccessory(accessory)
+        end
+        game.Players.LocalPlayer.Character.Animate.Disabled = true
+        wait(0.1)
+        game.Players.LocalPlayer.Character.Animate.Disabled = false
+    end
+end
+GodMode()
+end)
+
+Section4:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SEBlyaWWVomWMePpQiNSoArCWpmxhXrKbAxViICyrIGEerRFeafxoofU2lsZW5jaW9zbyBBaW0u'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('vMuRrtjRrKrIUYCTXMPGOXxZzOVeKOvOcMBfCLhBhiATGXxmHzyWJXLRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3IgdGVuZ2EgdW4gYXV0byBkaXNwYXJvIGhhY2lhIGVsIGFzZXNpbm8u'), function()
+    getgenv().SheriffAim = gunsilentaim
+end)
+
+Section5:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('TlVFdhmsFaxFfbfRZYqhfZuJDhVQxnJTIUzTDEkqWAMgeZzuPeFujsQTWF0YXIgQSBUb2Rvcy4='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ZCUSycUrDnqwSkNakmwANyVYaSlaRGWguFcSxJioOGDzPrxaCkZxxJSRXN0YSBvcGNpw7NuIGhhY2UgcXVlIG1hdGVzIGEgdG9kb3Mgc2kgZXJlcyBhc2VzaW5vLg=='), function()
+local function equipKnife()
+    local tool = game.Players.LocalPlayer.Backpack:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jKtZYgmVekqvLaxfiQmqVpzlQlTWLHbdIraIEEMhkAZQPDbJyIiWJkLS25pZmU=')) -- Busca el cuchillo en la mochila del jugador local
+    if tool then -- Si el cuchillo existe
+        tool.Parent = game.Players.LocalPlayer.Character -- Equipa el cuchillo al personaje del jugador local
+    end
+end
+
+equipKnife()
+
+local Targets = {HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BvUmYhnXtZVyvYDUoRTEbbipFlVAvkpovjqlrQErtYAZjHDMlTkIhbOQWxs')} -- HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('QAsHVWoJHbSPprgyJXKRjpPczsUehNPEDtElvDqbJrFgsAwDBUtXYoSQWxs'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('TIfRvNrrGHZUyhNwecgRbloSysBBVxZLHMHRTNEIEcZCxCWsFieiYOeVGFyZ2V0IE5hbWU='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SuUbpFXXIoxqVlkgLnAcMeustBZpPlLhrTbsKXbiSVDImgnbURmVKbzYXJpYW5fd2FzX2hlcmU=')
+
+local Players = game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('WxLOGwaSJNvaIirOaSszePeaihhssSFnvoOAaWJEVDwdpjrlxVMHfKKUGxheWVycw=='))
+local Player = Players.LocalPlayer
+
+local AllBool = false
+
+local GetPlayer = function(Name)
+    Name = Name:lower()
+    if Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('qCCGyjHYIjkqiGJHNaEBmZAjLmfjvxUIZlvgrdbQDLFJmBnxwxSkiAhYWxs') or Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('cETxucCMQzIQHenBXDAvCiUwaWJxwqKStMfPFFSHBlZElMHztVwsFdob3RoZXJz') then
+        AllBool = true
+        return
+    elseif Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('LJvLHnSQFzbQfbOvlDqJlQVRjFrIgDstvWuJcrUGGssdSHkUGvmplAfcmFuZG9t') then
+        local GetPlayers = Players:GetPlayers()
+        if table.find(GetPlayers,Player) then table.remove(GetPlayers,table.find(GetPlayers,Player)) end
+        return GetPlayers[math.random(#GetPlayers)]
+    elseif Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('wzhOfUDjEAOpBJIJkrvsDpLGFwmGpPSyNbZbbCNYUhDgnKzUuTYMatvcmFuZG9t') and Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yefnWgSWtmhOMEMwDgwEYAzlKWBkVjlNpDxLhNoQFMyNnESJiUQXSunYWxs') and Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('rTNRneLPIJVnDXfIvRfVynsZMgzqlqGeVtempwbUsMycWSUCqcHrWhlb3RoZXJz') then
+        for _,x in next, Players:GetPlayers() do
+            if x ~= Player then
+                if x.Name:lower():match(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('mIyafEfFZtUtzgHNYqeWGzYeDPwQqFmTRwxGolyAbYAmyvudjprBbHXXg==')..Name) then
+                    return x;
+                elseif x.DisplayName:lower():match(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NUoIuIeSqBzhTnqNyxeMwZvSGStyyVsSGEJcujWgRAxUvQWTLULmiLAXg==')..Name) then
+                    return x;
+                end
+            end
+        end
+    else
+        return
+    end
+end
+
+local Message = function(_Title, _Text, Time)
+    game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('moBNPUxnLrmxfZMRBPprPIaVBkVwvULJcgosSEJfgMRhRmyYCjYDldwU3RhcnRlckd1aQ==')):SetCore(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lMemyjJEEfCewvlpOKMyeQAPoIvxxnqGMwCNOuNDqkamoLBBnsfgUmiU2VuZE5vdGlmaWNhdGlvbg=='), {Title = _Title, Text = _Text, Duration = Time})
+end
+
+local SkidFling = function(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OjeKkSjlUGPYUUzdpfWSEEBRiuWeMMTIyzlNKHSWtFwkLUCsjLNbRAjSHVtYW5vaWQ='))
+    local RootPart = Humanoid and Humanoid.RootPart
+
+    local TCharacter = TargetPlayer.Character
+    local THumanoid
+    local TRootPart
+    local THead
+    local Accessory
+    local Handle
+
+    if TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('PGAjzBqvMkqgLBHdLGOpQvUoKvToueoahargpGGlZtlxjcXaZTOCZdVSHVtYW5vaWQ=')) then
+        THumanoid = TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('evXEfCTQLvxqxKSSptMrgqEzFAriRSQTFSxzgvTZGDpwULMBgSlXywjSHVtYW5vaWQ='))
+    end
+    if THumanoid and THumanoid.RootPart then
+        TRootPart = THumanoid.RootPart
+    end
+    if TCharacter:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yFwMrfZbfNuDlRgTvrPIUAvOmjJbfZbMdyuwdtTwyewgpqelGwtUSUgSGVhZA==')) then
+        THead = TCharacter.Head
+    end
+    if TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('REuOmQfUIpyCLtOyCPTzDbRThQHXBnFOZCWfDfroDcJAfkYvVeECACqQWNjZXNzb3J5')) then
+        Accessory = TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('KIZTUOfAfXFgANxQMtGFtbxalTTzSsdQGNIqCcypBqnQMbSEYNptvjtQWNjZXNzb3J5'))
+    end
+    if Accessoy and Accessory:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BgsitVMNLuALNhAYdWnWJboBNcVqYrWTYLHrMVaYkRrtjpGJQnRepJsSGFuZGxl')) then
+        Handle = Accessory.Handle
+    end
+
+    if Character and Humanoid and RootPart then
+        if RootPart.Velocity.Magnitude < 50 then
+            getgenv().OldPos = RootPart.CFrame
+        end
+        if THumanoid and THumanoid.Sit and not AllBool then
+            return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ipiEwkbJVPIVuSdTiFzmMDvSXTJpufJjUpSAeDihvdVDSdZunMvRCOPRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('aFDhrDaaJlxQfBFfhKXWJOLaJylhHbeqGQDoderTEaokzNvdcTpBDpjVGFyZ2V0aW5nIGlzIHNpdHRpbmc='), 5) -- u can remove dis part if u want lol
+        end
+        if THead then
+            workspace.CurrentCamera.CameraSubject = THead
+        elseif not THead and Handle then
+            workspace.CurrentCamera.CameraSubject = Handle
+        elseif THumanoid and TRootPart then
+            workspace.CurrentCamera.CameraSubject = THumanoid
+        end
+        if not TCharacter:FindFirstChildWhichIsA(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('EmJYilUjUabDYUcyCrIafRVoUnFlXJyVbkLWnLppbVJYgybeXRNERUfQmFzZVBhcnQ=')) then
+            return
+        end
+        
+        local FPos = function(BasePart, Pos, Ang)
+            RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+            Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+            RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+            RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+        end
+        
+        local SFBasePart = function(BasePart)
+            local TimeToWait = 2
+            local Time = tick()
+            local Angle = 0
+
+            repeat
+                if RootPart and THumanoid then
+                    if BasePart.Velocity.Magnitude < 50 then
+                        Angle = Angle + 100
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle),0 ,0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(2.25, 1.5, -2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(-2.25, -1.5, 2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+                    else
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -THumanoid.WalkSpeed), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+                        
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5 ,0), CFrame.Angles(math.rad(-90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+                    end
+                else
+                    break
+                end
+            until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or not TargetPlayer.Character == TCharacter or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+        end
+        
+        workspace.FallenPartsDestroyHeight = 0/0
+        
+        local BV = Instance.new(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('qKyaBYrGuoxmRFXWJKUBVZCDxXLhcrMOudQVJJIswtHdamlLjUwuNLBQm9keVZlbG9jaXR5'))
+        BV.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BvWOECpIMzBlZKQKCdDcHdeBkVAdSvnmDfkMzBizGisniIWrVWmxDUXRXBpeFZlbA==')
+        BV.Parent = RootPart
+        BV.Velocity = Vector3.new(9e8, 9e8, 9e8)
+        BV.MaxForce = Vector3.new(1/0, 1/0, 1/0)
+        
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+        
+        if TRootPart and THead then
+            if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+                SFBasePart(THead)
+            else
+                SFBasePart(TRootPart)
+            end
+        elseif TRootPart and not THead then
+            SFBasePart(TRootPart)
+        elseif not TRootPart and THead then
+            SFBasePart(THead)
+        elseif not TRootPart and not THead and Accessory and Handle then
+            SFBasePart(Handle)
+        else
+            return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('uFJHzzWiNeJwcHnXsvhnIbCOPGiovqcNMTvqtycWEkbBUQnCFntYHZgRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('MSKciWctSNkDWGmGLGocDNmnHxGwYSVzzBIwJTaBHMEOkklgaCEBGYmVGFyZ2V0IGlzIG1pc3NpbmcgZXZlcnl0aGluZw=='), 5)
+        end
+        
+        BV:Destroy()
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        workspace.CurrentCamera.CameraSubject = Humanoid
+        
+        repeat
+            RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+            Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+            Humanoid:ChangeState(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('zaNMJMtFprrUgHTKzkalgDxOafmHYyYbDnCphHRwvwITShGTahdzMXAR2V0dGluZ1Vw'))
+            table.foreach(Character:GetChildren(), function(_, x)
+                if x:IsA(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('LRxMecwIodDAGOhbwtFRLdMhdPksayMuvwZakDjIcvRqYJsrQbopOLBQmFzZVBhcnQ=')) then
+                    x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+                end
+            end)
+            task.wait()
+        until (RootPart.Position - getgenv().OldPos.p).Magnitude < 25
+        workspace.FallenPartsDestroyHeight = getgenv().FPDH
+    else
+        return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('oiSjjxhSivZdnyxQreNMuJHqShJOQWIKkcDLDDZdwYQfZMFMRCeJTEmRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ATeeKBJgEsUznuzDIVJaTtNjvceHdpIMDBXfZFQidzxQYvaTWMHcFTTUmFuZG9tIGVycm9y'), 5)
+    end
+end
+
+if not Welcome then Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('cMrDPeAExODPGrnRsMYzwXdUKfhWJyufrAguerNEgeNlaBfmADxIURARmxpbmcgVG9kb3MgSGFja2J1bGw='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('MQlKXYsEtGrrUdCvhDrjcigNizmaeVzEekXEFKkneroalCgqzDcREjfRW4gcHJvY2Vzby4h'), 5) end
+getgenv().Welcome = true
+if Targets[1] then for _,x in next, Targets do GetPlayer(x) end else return end
+
+if AllBool then
+    for _,x in next, Players:GetPlayers() do
+        SkidFling(x)
+    end
+end
+
+for _,x in next, Targets do
+    if GetPlayer(x) and GetPlayer(x) ~= Player then
+        if GetPlayer(x).UserId ~= 1414978355 then
+            local TPlayer = GetPlayer(x)
+            if TPlayer then
+                SkidFling(TPlayer)
+            end
+        else
+            Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('TNpFIRFDjNWcslWAqDSwgHfaZInTEfMUwkgnwCZKioGhqjfJXCoFtubRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('MYWBQFRiDcyJBGbEUVkwGZnXCpXEqoEsHNQusgfoDoqVQmMTSKDUaoTVGhpcyB1c2VyIGlzIHdoaXRlbGlzdGVkISAoT3duZXIp'), 5)
+        end
+    elseif not GetPlayer(x) and not AllBool then
+        Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ukfumEKToNShkvngnNXCYxIlLBzeHZLhHbVombGMrUuXJQiQOSNoNOMRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('vQKrAiYuYltYuSeLITKQdeaGwycPNKbwCmLnaFyZVPzFzIkdLGLpblOVXNlcm5hbWUgSW52YWxpZA=='), 5)
+    end
+end
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jSNgdgAMtFuBRPKbBcbYlmnxPtdMPOTlzXDpRzWUXCembzBuaVKRwSvTG9iYnku'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('vuAmTIObKifPvCCmQEYqRHJrWEfqdRAhgzkpOTxEUneKrGnRjuZNcJnRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhbCBsb2JieS4='), function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Workspace.Lobby.Map.Spawns:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('aNOvpyYsuoAjYBZYxeZCgXFbnBBcqkdcbaugRdlIglnQVpZpcfLPiZXU3Bhd24=')).Position) * CFrame.new(0,2.5,0)
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OhxDWJrfBqNJgwYNrlnncrOPJSmhOnDXJsrHvpsNepWrlqUqzUVdleUVm90YWNpw7NuLg=='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lzGHOZbKRFtCSIFSFuTDeULROwULgcyCaDniNQUqBgOzYxXeEFASCJIRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhbCBjZW50cm8gZGUgdm90YWNpw7NuZXMu'), function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-108.5022201538086, 140.69989013671875, 83.28791809082031)
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('depmDXiCtRzCBZgPuTJRtIUPUYKsYnCMUwqtQliiRcucKyXANVwnQZoTWFwYS4='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('LhducyZpYgALSAUTQCzTnZdpPSOiSjNksQsCPTTUWWASxzyZjlogXxoRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhbCBtYXBhLg=='), function()
+    for i,v in pairs (workspace:GetDescendants()) do
+        if v.Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('rvjmCuLxoDediCwauNsreFkiNwGByJXPPcuEjrpUhBbHjbuBpJuEZflU3Bhd24=') then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position) * CFrame.new(0,2.5,0)
+        elseif v.Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('TtrEpihiudCDstVYRGkIdaHeoeUlpbeBKubevPNICbNqhqUrkCfUWIsUGxheWVyU3Bhd24=') then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position) * CFrame.new(0,2.5,0)
+        end
+    end
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('mexOwBfgqSvYWGSHTRQUQCbjVEbQscVFfgzMtCpxfqqyNBtcGdAozeFQWJhbmRvbmFyIE1hcGEu'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('gZJtTgKupUtLzKrHecCddPBNDCIolcMPbhINwYAXRJBmMXFqtxkQTUoRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhIGZ1ZXJhIGRlbCBtYXBhLg=='), function()
+    if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yInYjdGuNkRroNjAFcFkBYFvnubZPMwjGJcDLtjUZQPMPlHrtXwtfblQmFuazI=')) then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1657.433349609375, 55.1998291015625, -894.1311645507812)
+    else
+        if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('DuQQfnPrdcFBBOzGbdVwxsREarfQbMyzLApMSDBJSGKnxaDUPjBTrWWQmlvTGFi')) then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4281.05224609375, 77.2977294921875, 513.7952270507812)
+        else
+            if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('hxWduLRfxhnaitKaemWWarItkYHbYfnJBVBDqlnYRFofYtsbYWTMQtNRmFjdG9yeQ==')) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3396.335205078125, 72.9106216430664, 1395.3807373046875)
+            else
+                if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('UIwcoJAeqyuFGPjseWMxdTvoeQKIWRHvKGXtbMfKNdvwMsZgaQwRKQVSG9zcGl0YWwz')) then
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-701.52197265625, 53.100040435791016, -2679.240966796875)
+                else
+                    if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BMxcEygjCARkjoAXOxQQVxBAQTJkhRcuwJmiqAWZKKVFUnPmAYATpWkSG90ZWw=')) then
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1845.1964111328125, 42.99995040893555, 842.2034301757812)
+                    else
+                        if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('MhuUlSUFXSqRNRloeUNphKRvoDXlJJtPdAjBCrLrdNSpWwtuvGkkcqJSG91c2Uy')) then
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1499.271728515625, 63.80094528198242, -1143.742431640625)
+                        else
+                            if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('nkwBQpKRgzbTsFkUNzKcAxAWtOHsJObQCanfdaRNbkhQWQjbfGiAHzHTWFuc2lvbjI=')) then
+                                for i,v in pairs (workspace.Mansion2:GetDescendants()) do
+                                    if v.Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('fQdSAsxbuLSRflIOrkPKrcXUsxyscKhZFzglElTekKDlbewtcqioGhLR2xpdGNoUHJvb2Y=') then
+                                          v:Destroy()
+                                    end
+                                end
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-902.5350952148438, 29.500106811523438, -1906.47314453125)
+                            else
+                                if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('RZAouiJGpZcpHHDtqYoPzEdbFbKRRWObYOdHdhlPszlqMbDGMWxgQwITWlsQmFzZQ==')) then
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3308.32421875, 125.00634765625, 2854.347900390625)
+                                else
+                                    if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ODnuglMGstpSuIVdTlbSypSRbobvCAXHXfVgXehHHYnKDiBngcodcHBblNPZmZpY2U=')) then
+                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(360.3828125, 66.00631713867188, 2420.55908203125)
+                                    else
+                                        if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('hJdzqnouNGTMwxjAbtlFlUtqhFWNnCmFjXPbZmjoJPYzUXPCXxZxyaVT2ZmaWNlMw==')) then
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(155.65457153320312, 73.00385284423828, -2992.73974609375)
+                                        else
+                                            if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('jCuFnyxjFWxVWocAsunZxuXcdWrbfiGnPCcuwdUPKRaFeWhKcIhqUTfUG9saWNlU3RhdGlvbg==')) then
+                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2934.41357421875, 72.90029907226562, 263.7356262207031)
+                                            else
+                                                if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('sqAfTvaTFzJdlIuhoOjJDrhLXZrdeiLADcahciwPOhzKckeihDqmVOHUmVzZWFyY2hGYWNpbGl0eQ==')) then
+                                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(435.5243225097656, 64.59996032714844, -78.25444793701172)
+                                                else
+                                                    if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('HuBnowDUmsMECOTSsAiiZWdkfLrEkqVwTGSfyHmtWoSJDAPbozIlmiiV29ya3BsYWNl')) then
+                                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3159.590087890625, 44.20138931274414, -571.6121215820312)
+                                                    else
+                                                        if workspace:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('JoSiAAPlNUjdQeYaZoAQkuAevFFPpfYwsNjWkHADPEztvCGeOOANSWYTG9iYnk=')) then
+                                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-107.46256256103516, 223.2144012451172, 22.349220275878906)
+                                                        end
+                                                    end
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('QyLIeZsvKYCTwSBAwQedXlFcjpCnqzWiqKLqINmyoSNvWsThEpNhKUNQXNlc2luby4='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BGmKMpNpJEwUNmNUbXwaTFjBCLJjWZfMorNzMqBwFCmsaDGyYkijnTARXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhbCBhc2VzaW5vLg=='), function()
+    tptoplayer = players:FindFirstChild(Murder)
+    LocalPlayer.Character:WaitForChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ygbclGuMyExFqstHQVAHfLiLZzYyXrBoyjJnnsDuZrWCWgyHoFbcnDzSHVtYW5vaWRSb290UGFydA==')).CFrame = CFrame.new(tptoplayer.Character:WaitForChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OJZDAALmmhnYyFRemZaorWFWORQGYzbMFhfxMnhPnNmPlDJmELvOeCWSHVtYW5vaWRSb290UGFydA==')).Position)
+end)
+
+Section6:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('fXcTUyHYzqCLjQKyPUiUGwhWZvlHGbkTJIPNSCgBqnhfMOAaFAszUxUUG9saWPDrWEu'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('xYakQNtEWEPglYhBVKIKdKRrCsrwXGQJAxQuFAFMpLKMAbVDvLjmbDcRXN0YSBvcGNpw7NuIGhhY2UgcXVlIGVsIGp1Z2Fkb3Igc2UgdGVsZXRyYW5wb3J0ZSBhbCBwb2xpY8OtYS4='), function()
+    tptoplayer = players:FindFirstChild(Sheriff)
+    LocalPlayer.Character:WaitForChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('hcrweyhTeZtEXujLIxgNNjkzsOLzGfTIVobYiAIEyjSFNpljStAmUSISHVtYW5vaWRSb290UGFydA==')).CFrame = CFrame.new(tptoplayer.Character:WaitForChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('imJWVYSZLyHSvnDjoWkXXfrrcXKasAMDfDshssRWTuycwySyjwdXdjXSHVtYW5vaWRSb290UGFydA==')).Position)
+end)
+
+Section7:NewButton(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('DtHZwnOjFmStDyZnEfTMqvoIXOACWxcmTJvPtjhMBEZZwPQEVvUssRkRmxpbmcgVG9kb3Mu'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NmPBMnDqIULPvKirVjcnIkSWfFNhtGejkTWLlNdJTvpXgQOrDNKQEzXRXN0YSBvcGNpw7NuIGhhY2UgcXVlIHRvZG9zIHNhbGdhbiBkZWwgbWFwYS4='), function()
+local Targets = {HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('htcEnXYCbZexqnbmWxJAclrvHxorJZoNsjRgqFkeXCqJylCEmnRMxmhQWxs')} -- HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('WOMSjTGxScbcnYqFPZRQEQxojvMutEGEdKXJLyfbLVLPsuMtvleOvlTQWxs'), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('nOATawllLNkTisanOvCGQuWwFKnHndegbzGGTHBfmcxmVKxALwWrabKVGFyZ2V0IE5hbWU='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('piQHMKAPtfSmNrjXIApkXUJyiEiaUmyECcjdZqjTChPziEDdMmpmpfyYXJpYW5fd2FzX2hlcmU=')
+
+local Players = game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('IASzEOabYpVfmCqMInVogkDMzLXAYPeDMRmsBdKqoWNYOlCtAKxvfIpUGxheWVycw=='))
+local Player = Players.LocalPlayer
+
+local AllBool = false
+
+local GetPlayer = function(Name)
+    Name = Name:lower()
+    if Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BPRXPQtiBwpowWpHNKwXmmcnnqFdThoWPGDyyNzhwtqctnqpmEOvNLpYWxs') or Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('cIkgkrbeqyWIijrWWhuqwjuZihxzGwxsLRPnBOBvUeUipqzDAycqWoBb3RoZXJz') then
+        AllBool = true
+        return
+    elseif Name == HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('nxwaRkdMXbnIVdwagTvwzOyqdIOXdIdzeGIuuXojBWLDRZbwxBVWbcOcmFuZG9t') then
+        local GetPlayers = Players:GetPlayers()
+        if table.find(GetPlayers,Player) then table.remove(GetPlayers,table.find(GetPlayers,Player)) end
+        return GetPlayers[math.random(#GetPlayers)]
+    elseif Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('PznZQsRINVzlkPxeolSbjckrTOqBAZbqfHPYhEgglfhOYiIqYtMIcIwcmFuZG9t') and Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('UcMuCefLaOSDNAZkAhQfhPLCrqTpNQjWBLnRyVolNmMIgqSfFmolhcTYWxs') and Name ~= HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('FmGREOBLNOopkjCYljNsVUOqPzEAALqQFGRXcxEPISJoVrkbQZvgAVsb3RoZXJz') then
+        for _,x in next, Players:GetPlayers() do
+            if x ~= Player then
+                if x.Name:lower():match(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lpVZudRLIrxmhjxLIBbIitdjOHaVtabAEgzwmuLWvCGxEgLeNzpCVbrXg==')..Name) then
+                    return x;
+                elseif x.DisplayName:lower():match(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yrCbslPmabUJEXGGFQIxMJQlDiQdihObffbANsvbIaYjHfVUJZPhPurXg==')..Name) then
+                    return x;
+                end
+            end
+        end
+    else
+        return
+    end
+end
+
+local Message = function(_Title, _Text, Time)
+    game:GetService(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('evHlZauakRqExBvxaWumrgpSboeZIYSatUcmmijlLgOvtpJychfSxBKU3RhcnRlckd1aQ==')):SetCore(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('zRGIQNkqaiRFHTMXXpjDJcgZDkPqBsWfDhcPglbdRaRnHIqzaJlEyTtU2VuZE5vdGlmaWNhdGlvbg=='), {Title = _Title, Text = _Text, Duration = Time})
+end
+
+local SkidFling = function(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SBtoyEBBTwXJOgroMLmBQWfjOtgCHwDSCqYcrylgUAJEGHYJcRJZjPXSHVtYW5vaWQ='))
+    local RootPart = Humanoid and Humanoid.RootPart
+
+    local TCharacter = TargetPlayer.Character
+    local THumanoid
+    local TRootPart
+    local THead
+    local Accessory
+    local Handle
+
+    if TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('nyCnPXKQOtdMqbRkIjuqGCDIJpiduiBntChxbzlWeUXUpZkguJsCclHSHVtYW5vaWQ=')) then
+        THumanoid = TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('QZoQpXFwsRdBERyLSnXitJgGkGOUQWIGPciaUtAtMeTgyHnvbyoKAFfSHVtYW5vaWQ='))
+    end
+    if THumanoid and THumanoid.RootPart then
+        TRootPart = THumanoid.RootPart
+    end
+    if TCharacter:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('OiRWVLCjQisBpCPlVJaswESIvJWYLLbYNpJeACUtktzFvmTLrJScMpMSGVhZA==')) then
+        THead = TCharacter.Head
+    end
+    if TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('lxllDBEJSCtSetjrjWwIDEvAKlMcMLlryyXSyCAjooTQBbbeWGtFDNGQWNjZXNzb3J5')) then
+        Accessory = TCharacter:FindFirstChildOfClass(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('CNITsFODmXwbECyFHxHXWpiMnjPYCtxcopskITmNBnxgWKhQPOoBCGoQWNjZXNzb3J5'))
+    end
+    if Accessoy and Accessory:FindFirstChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('oIKnLIWvJxExejqGifPBPucMSOcMEuWrJvJArIJLvNsIPcUwvnliotvSGFuZGxl')) then
+        Handle = Accessory.Handle
+    end
+
+    if Character and Humanoid and RootPart then
+        if RootPart.Velocity.Magnitude < 50 then
+            getgenv().OldPos = RootPart.CFrame
+        end
+        if THumanoid and THumanoid.Sit and not AllBool then
+            return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('NQSpIkHbIjSNXwciSijPkjdiFwVLMncsJWoWtxhffaHzAYCbfjhEuyGRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('igNNDUIzfWJbrpTQcfgLxOhVxfcHJXRIcTijuRXMPdjAVQiwXAUYEarVGFyZ2V0aW5nIGlzIHNpdHRpbmc='), 5) -- u can remove dis part if u want lol
+        end
+        if THead then
+            workspace.CurrentCamera.CameraSubject = THead
+        elseif not THead and Handle then
+            workspace.CurrentCamera.CameraSubject = Handle
+        elseif THumanoid and TRootPart then
+            workspace.CurrentCamera.CameraSubject = THumanoid
+        end
+        if not TCharacter:FindFirstChildWhichIsA(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('EKFEHTllOhTDbHhAMsCrsOFfIqBGaFJUdASoEBRJjSqtjZyRNMXiTwxQmFzZVBhcnQ=')) then
+            return
+        end
+        
+        local FPos = function(BasePart, Pos, Ang)
+            RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+            Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+            RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+            RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+        end
+        
+        local SFBasePart = function(BasePart)
+            local TimeToWait = 2
+            local Time = tick()
+            local Angle = 0
+
+            repeat
+                if RootPart and THumanoid then
+                    if BasePart.Velocity.Magnitude < 50 then
+                        Angle = Angle + 100
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle),0 ,0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(2.25, 1.5, -2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(-2.25, -1.5, 2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+                    else
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -THumanoid.WalkSpeed), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+                        
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5 ,0), CFrame.Angles(math.rad(-90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+                    end
+                else
+                    break
+                end
+            until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or not TargetPlayer.Character == TCharacter or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+        end
+        
+        workspace.FallenPartsDestroyHeight = 0/0
+        
+        local BV = Instance.new(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('yEePCucfpnCfEzDUCLFqZvUDzKONCWTFyifltDZQEXMNIvoqvlSiiMYQm9keVZlbG9jaXR5'))
+        BV.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('sqDqNqBdooAEpIfJbWNaFjXwfggOainFFLdlSRpNGHRIgtdtkjFqTQaRXBpeFZlbA==')
+        BV.Parent = RootPart
+        BV.Velocity = Vector3.new(9e8, 9e8, 9e8)
+        BV.MaxForce = Vector3.new(1/0, 1/0, 1/0)
+        
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+        
+        if TRootPart and THead then
+            if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+                SFBasePart(THead)
+            else
+                SFBasePart(TRootPart)
+            end
+        elseif TRootPart and not THead then
+            SFBasePart(TRootPart)
+        elseif not TRootPart and THead then
+            SFBasePart(THead)
+        elseif not TRootPart and not THead and Accessory and Handle then
+            SFBasePart(Handle)
+        else
+            return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('gUpYKBGzoPiWQUryJPqPxIFuTalPQNVJfvlXAtJXQXlIIGXvYOYHPJPRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('xupqDxEsbHugYywduVVwazWMdQSTtddOoFNiwUhgsOkDgsYFFeIORxRVGFyZ2V0IGlzIG1pc3NpbmcgZXZlcnl0aGluZw=='), 5)
+        end
+        
+        BV:Destroy()
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        workspace.CurrentCamera.CameraSubject = Humanoid
+        
+        repeat
+            RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+            Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+            Humanoid:ChangeState(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ANSFPIVvUrANeeMuSOVspnkiPuTCTxHewozPVlphYEkyBzDukWKbSgwR2V0dGluZ1Vw'))
+            table.foreach(Character:GetChildren(), function(_, x)
+                if x:IsA(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('ksJIRxCsNaCqTvPZdsSgvUvXBNAoChuWhWVuvNItXXpYEsoHnWUXYlQQmFzZVBhcnQ=')) then
+                    x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+                end
+            end)
+            task.wait()
+        until (RootPart.Position - getgenv().OldPos.p).Magnitude < 25
+        workspace.FallenPartsDestroyHeight = getgenv().FPDH
+    else
+        return Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('WeiogRHjwyUKKyTOVlYDZuAIFbuahYeXzGrRzBxosdCqUakBExgqTtBRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('mrbdcOyahVgFExKLqQQMEuxcwYGmKXPslOPWVOJRlLUDtsWuAAQWVQwUmFuZG9tIGVycm9y'), 5)
+    end
+end
+
+if not Welcome then Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('gGKBpeCCXZiohEYVtpisBThWInuIQtHppyuiSrUeErsSEJXnuLiBGlrRmxpbmcgVG9kb3MgSGFja2J1bGw='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('SWaxoLjYqjjedvtLeygyJjBxXKydQfXHxImUHqGuAFZyDltiadewxdtRW4gcHJvY2Vzby4h'), 5) end
+getgenv().Welcome = true
+if Targets[1] then for _,x in next, Targets do GetPlayer(x) end else return end
+
+if AllBool then
+    for _,x in next, Players:GetPlayers() do
+        SkidFling(x)
+    end
+end
+
+for _,x in next, Targets do
+    if GetPlayer(x) and GetPlayer(x) ~= Player then
+        if GetPlayer(x).UserId ~= 1414978355 then
+            local TPlayer = GetPlayer(x)
+            if TPlayer then
+                SkidFling(TPlayer)
+            end
+        else
+            Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('LBguznWdiWicclMFxMzrGfUxGVGTDmcSJsJdMqgvAIRYWiyIIXEAOMsRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('kghIpwFCMTdClmgYGyqKMVnUMOyFQoiUrVJvAbSWlDGJYeEQEXzjWIAVGhpcyB1c2VyIGlzIHdoaXRlbGlzdGVkISAoT3duZXIp'), 5)
+        end
+    elseif not GetPlayer(x) and not AllBool then
+        Message(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('aoVgvKWoQYCEhcEqypRcniUWVncGjxBFKZtcZALWTSGWarXftJRiAkIRXJyb3IgT2NjdXJyZWQ='), HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('VZpnrJPZdNQPeydhTSsmvZkUOkMDlAGieOFzrVIXzGLMbNmLekXcNltVXNlcm5hbWUgSW52YWxpZA=='), 5)
+    end
+end
+end)
+
+local ScreenGui = Instance.new(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('cVRLvSfulPMPKSTvUXqlngXHQEYIDHWsAEoSBPdHDHSPMPIzzGmDOwRU2NyZWVuR3Vp'))
+ScreenGui.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('WNFgqkdpMWhuShZmsyOZQoMpabhFoqZTJoJMVGPqVqRJhsiBRYxqRMkU2NyZWVuR3Vp')
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('LwsFHxjtlvyspmKAQdRDclCOABSNDIlAcvgaCLJMQyxcIdfXoEAmaCnUGxheWVyR3Vp'))
+ScreenGui.ResetOnSpawn = false
+ 
+local Toggle = Instance.new(HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('XJcWBJPZXdxMewWYkiaSMwEXRDpjzLJqfYMKJAMWuceAigLAlHRCbawVGV4dEJ1dHRvbg=='))
+Toggle.Name = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('BxuhMEnCDPYndiEeykeLgoKvswLtzKwxWBixAHaAJXsjhWoUtboccey8J+Qvg==')
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = HZKpHFdBVdjAcHomdmyErkJxRKgSqQbvLxuVNWmfJNoNAuutSkfgeNJZcUoOBiunKFL('FXMiyJxGVvJLIdjfjZmbNXHSHcBJxymtMpPqoxXrTWXEsRstOCyAHDZ8J+Qvg==')
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)    
